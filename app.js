@@ -7,9 +7,9 @@ dotenv.config();
 
 const app = express();
 
-// 设置视图引擎
-app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "views"));
+// // 设置视图引擎
+// app.set("view engine", "ejs");
+// app.set("views", path.join(__dirname, "views"));
 
 // 中间件
 app.use(express.json());
